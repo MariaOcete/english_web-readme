@@ -2,7 +2,7 @@
 
 **Full-Stack Web Application** designed to help students improve their
 English skills while allowing teachers to manage and review student
-submissions.
+submissions.  
 Built with **Java (Spring Boot)**, **MySQL**, and a responsive frontend
 in **HTML, CSS, and JavaScript**.
 
@@ -25,11 +25,11 @@ experience.
 
 -   👩‍🏫 **Role-based Access**
 
-    -   Students: Upload assignments (text/audio).\
+    -   Students: Upload assignments (text/audio).
     -   Teachers: Access and review student submissions.
 
 -   📖 **Teaching Materials**\
-    Songs, texts, and short stories accessible after login.
+    Songs, texts, and short stories accessible after login (students only).
 
 -   📝 **English Placement Test**\
     30 randomized questions stored in the database with automatic
@@ -45,7 +45,7 @@ experience.
 
 ## Tech Stack
 
--   **Backend:** Java · Spring Boot
+-   **Backend:** Java · Spring Boot · JPA
 -   **Database:** MySQL
 -   **Frontend:** HTML · CSS · JavaScript
 -   **Security:** Spring Security (DB-based authentication)
