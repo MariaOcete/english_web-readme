@@ -20,26 +20,25 @@ experience.
 ------------------------------------------------------------------------
 
 ## Key Features
-
--   **Authentication System**
+-   🔐 **Authentication System**\
     Secure login and role management (Students / Teachers).
 
--   **Role-based Access**
+-   👩‍🏫 **Role-based Access**
 
-    -   Students: Upload assignments (text/audio).
+    -   Students: Upload assignments (text/audio).\
     -   Teachers: Access and review student submissions.
 
--   **Teaching Materials**
+-   📖 **Teaching Materials**\
     Songs, texts, and short stories accessible after login.
 
--   **English Placement Test**
+-   📝 **English Placement Test**\
     30 randomized questions stored in the database with automatic
     scoring.
 
--   **Bilingual Interface**
+-   🌍 **Bilingual Interface**\
     Switch between **Spanish** and **English**.
 
--   **Modern UI**\
+-   🎨 **Modern UI**\
     Custom design with an original background and responsive layout.
 
 ------------------------------------------------------------------------
