@@ -1,7 +1,7 @@
 # English Learning Platform
 
 **Full-Stack Web Application** designed to help students improve their
-English skills while allowing teachers to manage and review student
+English skills while allowing teachers to review student
 submissions.  
 Built with **Java (Spring Boot)**, **MySQL**, and a responsive frontend
 in **HTML, CSS, and JavaScript**.
