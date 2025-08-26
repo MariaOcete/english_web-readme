@@ -10,6 +10,15 @@ in **HTML, CSS, and JavaScript**.
 
 ## Tech Stack
 
+<img width="290" height="142" alt="imagen" src="https://github.com/user-attachments/assets/a6e6955f-e2db-431f-adab-b189aaad42d8" />
+
+
+-   **Backend:** Java · Spring Boot · JPA
+-   **Database:** MySQL
+-   **Frontend:** HTML · CSS · JavaScript
+-   **Security:** Spring Security (DB-based authentication)
+
+
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" height="28" />
   &nbsp;&nbsp;
@@ -23,12 +32,6 @@ in **HTML, CSS, and JavaScript**.
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring" title="Spring" height="28" />
 </p>
-
--   **Backend:** Java · Spring Boot · JPA
--   **Database:** MySQL
--   **Frontend:** HTML · CSS · JavaScript
--   **Security:** Spring Security (DB-based authentication)
-
 
 ## Overview
 
