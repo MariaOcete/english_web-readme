@@ -105,7 +105,7 @@ src/
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+### 🏠 Home Page (Improving design)
 <img src="https://github.com/user-attachments/assets/1c017325-c42b-4c5d-8750-b3bd1e747f0d" width="800"/>
 
 ### 📝 Placement Test
