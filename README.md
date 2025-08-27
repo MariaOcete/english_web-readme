@@ -6,121 +6,131 @@ submissions.
 Built with **Java (Spring Boot)**, **MySQL**, and a responsive frontend
 in **HTML, CSS, and JavaScript**.
 
-------------------------------------------------------------------------
+---
 
-## Tech Stack
+## 🚀 Tech Stack
 
-<img width="290" height="142" alt="imagen" src="https://github.com/user-attachments/assets/a6e6955f-e2db-431f-adab-b189aaad42d8" />
-
-
--   **Backend:** Java · Spring Boot · JPA
--   **Database:** MySQL
--   **Frontend:** HTML · CSS · JavaScript
--   **Security:** Spring Security (DB-based authentication)
-
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" height="28" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL" height="28" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="HTML5" title="HTML5" height="28" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="CSS3" title="CSS3" height="28" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" height="28" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring" title="Spring" height="28" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-orange?logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-3.4.4-brightgreen?logo=springboot" />
+  <img src="https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black" />
 </p>
 
-## Overview
+- **Backend:** Java · Spring Boot · JPA  
+- **Database:** MySQL  
+- **Frontend:** HTML · CSS · JavaScript  
+- **Security:** Spring Security (DB-based authentication)  
+
+---
+
+## 📖 Overview
 
 This platform was developed as a **role-based educational system** where
 students can upload materials (texts, audios) and teachers can access
-and correct them.
+and correct them.  
 It combines **secure authentication**, **content management**, and an
 **interactive placement test** to deliver a complete learning
 experience.
 
-------------------------------------------------------------------------
+---
 
-## Key Features
--   🔐 **Authentication System**\
-    Secure login and role management (Students / Teachers).
+## ✨ Key Features
 
--   👩‍🏫 **Role-based Access**
+- 🔐 **Authentication System**  
+  Secure login and role management (Students / Teachers).
 
-    -   Students: Upload assignments (text/audio).
-    -   Teachers: Access and review student submissions.
+- 👩‍🏫 **Role-based Access**
+  - Students: Upload assignments (text/audio).
+  - Teachers: Access and review student submissions.
 
--   📖 **Teaching Materials**\
-    Songs, texts, and short stories accessible after login (students only).
+- 📖 **Teaching Materials**  
+  Songs, texts, and short stories accessible after login (students only).
 
--   📝 **English Placement Test**\
-    30 randomized questions stored in the database with automatic
-    scoring.
+- 📝 **English Placement Test**  
+  30 randomized questions stored in the database with automatic
+  scoring.
 
--   🌍 **Bilingual Interface**\
-    Switch between **Spanish** and **English**.
+- 🌍 **Bilingual Interface**  
+  Switch between **Spanish** and **English**.
 
--   🎨 **Modern UI**\
-    Custom design with an original background and responsive layout.
+- 🎨 **Modern UI**  
+  Custom design with an original background and responsive layout.
 
+---
 
-------------------------------------------------------------------------
+## 📂 Project Structure
 
-## Project Structure
+```
+src/
+ ├── main/java/com.englishweb/
+ │   ├── controller/   # Controllers
+ │   ├── model/        # Entities
+ │   ├── repository/   # Repositories
+ │   ├── service/      # Business logic
+ │   └── security/     # Spring Security config
+ └── resources/
+     ├── static/       # HTML, CSS, JS
+     └── application.properties
+```
 
-    src/
-     ├── main/java/com.englishweb/
-     │   ├── controller/   # Controllers
-     │   ├── model/        # Entities
-     │   ├── repository/   # Repositories
-     │   ├── service/      # Business logic
-     │   └── security/     # Spring Security config
-     └── resources/
-         ├── static/       # HTML, CSS, JS
-         └── application.properties
+---
 
-------------------------------------------------------------------------
+## 🛠️ Getting Started
 
-## Getting Started
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/MariaOcete/english-web.git
+   cd english-web
+   ```
 
-1.  Clone this repository
+2. Configure your database in `src/main/resources/application.properties`:
+   ```properties
+   spring.datasource.url=jdbc:mysql://127.0.0.1:3306/english_web
+   spring.datasource.username=englishuser
+   spring.datasource.password=EngWeb-2025!Ok
+   ```
 
-2.  Configure database in `application.properties`
+3. Run the project with Maven:
+   ```bash
+   ./mvnw clean spring-boot:run
+   ```
 
-3.  Run the project with Maven or your IDE (Eclipse/IntelliJ)
+4. Access the app at:  
+   👉 [http://localhost:8080](http://localhost:8080)
 
-4.  Access the app at `http://localhost:8080`
+---
 
+## 📸 Screenshots
 
-------------------------------------------------------------------------
+### 🏠 Home Page
+<img src="https://github.com/user-attachments/assets/1c017325-c42b-4c5d-8750-b3bd1e747f0d" width="800"/>
 
-## Screenshots
+### 📝 Placement Test
+<img src="https://github.com/user-attachments/assets/a03da545-de6c-4d8c-a5e2-95cbb6eefe3c" width="800"/>
+<img src="https://github.com/user-attachments/assets/79e6f149-79ff-4bec-86ae-d27da70e3d35" width="800"/>
 
-### Home Page
-<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/1c017325-c42b-4c5d-8750-b3bd1e747f0d" />
+### 🎓 Student Dashboard
+<img src="https://github.com/user-attachments/assets/5c8917d2-47b9-428f-a0c3-1071d1adc761" width="800"/>
 
+### 👩‍🏫 Teacher Dashboard
+<img src="https://github.com/user-attachments/assets/87abf51c-5b87-43e7-89a7-6350f717b69c" width="800"/>
 
-### Placement Test
-<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/a03da545-de6c-4d8c-a5e2-95cbb6eefe3c" />
-<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/79e6f149-79ff-4bec-86ae-d27da70e3d35" />
+---
 
+## 🔮 Future Improvements
 
-### Student Dashboard
-<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/5c8917d2-47b9-428f-a0c3-1071d1adc761" />
+- 🔄 Dockerize the app (Spring Boot + MySQL).  
+- 🎨 Replace static HTML with React or Angular frontend.  
+- 📊 Add teacher dashboards with statistics.  
+- ✅ Add unit & integration tests.  
+- ☁️ Deploy to cloud (Render / AWS / Heroku).  
 
+---
 
-### Teacher Dashboard
-<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/87abf51c-5b87-43e7-89a7-6350f717b69c" />
+## 👩‍💻 Author
 
-
-## Author
-
-**María Ocete**
-- 🌐 [Portfolio](https://mariaocete.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/maria-ocete-martin/)
-- 💻 [GitHub](https://github.com/MariaOcete)
-
-------------------------------------------------------------------------
+**María Ocete**  
+🌐 [Portfolio](https://mariaocete.com) · 💼 [LinkedIn](https://www.linkedin.com/in/maria-ocete-martin/) · 💻 [GitHub](https://github.com/MariaOcete)
