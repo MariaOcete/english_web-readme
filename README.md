@@ -97,6 +97,25 @@ experience.
 
 ------------------------------------------------------------------------
 
+## Screenshots
+
+### Home Page
+<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/1c017325-c42b-4c5d-8750-b3bd1e747f0d" />
+
+
+### Placement Test
+<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/a03da545-de6c-4d8c-a5e2-95cbb6eefe3c" />
+<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/79e6f149-79ff-4bec-86ae-d27da70e3d35" />
+
+
+### Student Dashboard
+<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/5c8917d2-47b9-428f-a0c3-1071d1adc761" />
+
+
+### Teacher Dashboard
+<img width="1851" height="956" alt="imagen" src="https://github.com/user-attachments/assets/87abf51c-5b87-43e7-89a7-6350f717b69c" />
+
+
 ## Author
 
 **María Ocete**
